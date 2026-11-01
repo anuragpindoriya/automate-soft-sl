@@ -1,0 +1,6 @@
+[
+  { "name": "blofin-main",  "exchange": "blofin",  "apiKey": "", "apiSecret": "", "passphrase": "" },
+  { "name": "bitunix-main", "exchange": "bitunix", "apiKey": "", "apiSecret": "" },
+  { "name": "bingx-main",   "exchange": "bingx",   "apiKey": "", "apiSecret": "" },
+  { "name": "weex-main",    "exchange": "weex",    "apiKey": "", "apiSecret": "", "passphrase": "", "enabled": false }
+]

@@ -1,0 +1,8 @@
+node_modules
+dist
+.env
+accounts.json
+sl.json
+sl.json.lock
+sl.json.state
+*.tmp

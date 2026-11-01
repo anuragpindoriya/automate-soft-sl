@@ -1,0 +1,8 @@
+{
+  "defaults": { "slPct": null, "hardPct": null },
+  "stops": [
+    {"account":"bingx-main","symbol":"BTCUSDT","side":"long","sl":64000,"hard":62500},
+    {"account":"blofin-main","symbol":"ETHUSDT","side":"short","sl":2650,"hardPct":1.5,"note":"emergency 1.5% above the SL"},
+    {"account":"bitunix-main","symbol":"SOLUSDT","side":"long","slPct":4,"note":"4% below entry"}
+  ]
+}

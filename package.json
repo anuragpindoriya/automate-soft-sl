@@ -1,0 +1,21 @@
+{
+  "name": "softsl",
+  "version": "1.0.0",
+  "description": "Hourly-close soft stop loss for BloFin, Bitunix, BingX and WEEX perpetual futures",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/src/index.js",
+    "once": "node dist/src/index.js --once",
+    "sl": "node dist/src/cli.js",
+    "test": "tsc && node --test \"dist/test/**/*.test.js\""
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.5",
+    "typescript": "^5.9.3"
+  },
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=20.12"
+  }
+}
